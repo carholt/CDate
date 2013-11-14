@@ -1,0 +1,49 @@
+/* general
+-------------------------------------------------------- 
+  
+*/
+
+
+html,body{margin:0;padding:0;} /* Common margin & padding for all browsers */
+html{overflow-y:scroll;} /* Always display the scrollbar, avoid flipping pages */
+
+html{background:#000;} /* Background color for whole browser window */
+body{background:#000;} /* Background color for the body-part of the browser window */ 
+
+body{font-family:Georgia, serif;color:#fff;} /* Default font for whole page */
+
+h1
+{
+	text-transform:uppercase; /* Transform all letter to uppercase. */
+	font-size: 128px;
+} 
+h1,h2{} /* Put border below header h1 and h2 */
+
+img {border:0;} /* No border around linked images */
+
+
+
+/* html5 elements
+-------------------------------------------------------- 
+
+*/
+header,footer,nav,article,section,aside,figure,figcaption{display:block;}
+
+
+/* page structure
+-------------------------------------------------------- 
+
+  Layout and size of header, content and footer
+  
+*/
+/* the header with navigation to related links */
+header#above{font-family:arial,helvetica,sans-serif;border-bottom:1px solid #E6E6E6;margin-bottom:4px;color:#000;}
+
+#wrapper
+{
+width:960px;
+margin: auto;
+background-color: black;
+}
+
+
